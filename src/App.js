@@ -4,7 +4,7 @@ import Card from './Card';
 import axios from 'axios';
 
 function App() {
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const [movie, setMovie] = useState([]);
   const [page, setPage] = useState(1);
 
